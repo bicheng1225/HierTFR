@@ -400,7 +400,7 @@ class GoPDataset(Dataset):
             self.phn_label = torch.tensor(np.load('../data/'+dir+'/te_label_phn.npy'), dtype=torch.float)
             self.utt_label = torch.tensor(np.load('../data/'+dir+'/te_label_utt.npy'), dtype=torch.float)
             self.word_label = torch.tensor(np.load('../data/'+dir+'/te_label_word.npy'), dtype=torch.float)
-            self.word_id = torch.tensor(np.load('../data/'+dir+'/tr_word_id.npy'), dtype=torch.float)
+            self.word_id = torch.tensor(np.load('../data/'+dir+'/te_word_id.npy'), dtype=torch.float)
 
         # normalize the GOP feature using the training set mean and std (only count the valid token features, exclude the padded tokens).
         self.feat = self.norm_valid(self.feat, norm_mean, norm_std)
