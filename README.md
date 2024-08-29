@@ -1,7 +1,9 @@
-An Effective Pronunciation Assessment Approach Leveraging Hierarchical Transformers and Pre-training Strategies (Submitted to ACL2024)
+An Effective Pronunciation Assessment Approach Leveraging Hierarchical Transformers and Pre-training Strategies
 ============
 ##  HierTFR :girl: :computer:
-This is the source code of the paper ["An Effective Pronunciation Assessment Approach Leveraging Hierarchical Transformers and Pre-training Strategies"](https://aclanthology.org/2024.acl-long.95.pdf).
+This is the source code of the paper ["An Effective Pronunciation Assessment Approach Leveraging Hierarchical Transformers and Pre-training Strategies"](https://aclanthology.org/2024.acl-long.95.pdf). 
+
+The paper has been accepted in ACL 2024, Bangkok, Thailand :elephant::elephant:.
 
 This work first introduces HierTFR, a hierarchal APA method that jointly models the intrinsic structures of an utterance while considering the relatedness among the pronunciation aspects. We also propose a correlation-aware regularizer to strengthen the connection between the estimated scores and the human annotations. Furthermore, novel pre-training strategies tailored for different linguistic levels are put forward so as to facilitate better model initialization.
 > The development of our code is based on GOPT, an open-source project available at [https://github.com/YuanGongND/gopt](https://github.com/YuanGongND/gopt) (Gong et al, 2022).
